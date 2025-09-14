@@ -1,7 +1,9 @@
 # 카카오테크 부트캠프 풀스택 3기 - 첫 번째 과제
 ----
+
 ## 클래스 다이어그램
 <img width="2386" height="1491" alt="image" src="https://github.com/user-attachments/assets/12b659dc-7891-4ea9-9d20-b19bd1837292" />
+
 ----
 
 ## 설명
