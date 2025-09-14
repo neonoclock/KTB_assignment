@@ -3,6 +3,7 @@
 ## 클래스 다이어그램
 <img width="2386" height="1491" alt="image" src="https://github.com/user-attachments/assets/12b659dc-7891-4ea9-9d20-b19bd1837292" />
 ----
+
 ## 설명
 사용자의 선택에 따라 활동을 추천해주는 콘솔 기반 CLI 프로그램입니다.
 외출 여부와 세부 활동을 단계적으로 선택하면,
