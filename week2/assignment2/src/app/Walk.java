@@ -20,6 +20,6 @@ public class Walk extends Outdoor {
 
     @Override
     public String tip() {
-        return "일몰 전후는 어두우니 밝을 때 걷고, 횡단보도 안전! 🌇";
+        return "밤에는 어두우니 밝을 때 걷고, 횡단보도 안전! 🌇";
     }
 }
