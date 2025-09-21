@@ -37,7 +37,7 @@ public class Main {
             Activity choice = switch (mainChoice) {
                 case MENU_OUTDOOR -> handleOutdoor(scanner);
                 case MENU_INDOOR  -> handleIndoor(scanner);
-                default -> handleOutdoor(scanner); // 기본값: 외출
+                default -> handleOutdoor(scanner);
             };
 
             if (choice != null) {
