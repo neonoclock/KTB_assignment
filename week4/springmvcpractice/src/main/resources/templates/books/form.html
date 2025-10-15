@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+  <meta charset="UTF-8"/>
+  <title>새 도서 등록</title>
+</head>
+<body>
+<h1>새 도서 등록</h1>
+
+<form method="post" action="/books" th:object="${bookDto}">
+  <!-- Spring Security 쓰면 아래 CSRF 토큰 필요 -->
+  <!-- <input type="hidden" th:name="${_csrf.parameterName}" th:value="${_csrf.token}" /> -->
+
+  <p>
+    <label>제목<br/>
+      <input type="text" th:field="*{title}" required/>
+    </label>
+  </p>
+  <p>
+    <label>저자<br/>
+      <input type="text" th:field="*{author}" required/>
+    </label>
+  </p>
+  <p>
+    <label>ISBN<br/>
+      <input type="text" th:field="*{isbn}" required/>
+    </label>
+  </p>
+  <p>
+    <label>소개<br/>
+      <textarea th:field="*{description}" rows="5"></textarea>
+    </label>
+  </p>
+
+  <button type="submit">저장</button>
+  <a href="/books">취소</a>
+</form>
+</body>
+</html>
